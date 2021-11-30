@@ -1,0 +1,113 @@
+.footer_container {
+    height: 90vh;
+    width: 75vw;
+    margin: 10vh 14vw;
+    position: relative;
+}
+
+.footer_container img {
+    height: inherit;
+    width: inherit;
+    border-radius: 6px;
+
+}
+
+.login_container {
+    height: 38vh;
+    width: 50vw;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.253);
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+.login_container_text {
+    padding: 1.5rem 0 0.5rem;
+}
+
+.login_container_text2 {
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 0.5rem 3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+
+@media screen and (max-width:850px) {
+    .footer_container {
+        height: 90vh;
+        width: 90vw;
+        margin: 0 5vw;
+        margin-bottom: 10rem;
+        background-size: cover;
+    }
+
+    .login_container {
+        height: 45vh;
+        width: 60vw;
+        top: 4rem;
+        padding: 0 2rem;
+
+    }
+
+    .btn {
+        padding: 0.5rem 3rem;
+
+        margin-top: 17%;
+    }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+    .footer_container {
+        height: 70vh;
+        width: 94vw;
+        margin: 0 3vw;
+        margin-bottom: 5rem;
+    }
+
+    .login_container {
+        height: 35vh;
+        width: 70vw;
+        top: 1rem;
+        padding: 0 0.7rem;
+
+    }
+
+    .login_container_text {
+        padding: 1rem 0 0.5rem;
+        font-size: 1.4rem;
+    }
+
+    .login_container_text2 {
+        letter-spacing: 0.3px;
+        font-size: 0.8rem;
+    }
+
+    .btn {
+
+
+        margin-top: 2rem;
+
+
+    }
+
+}

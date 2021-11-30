@@ -1,0 +1,214 @@
+.body_container {
+    margin-top: 4vh;
+}
+
+.body_container_image {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.body_container_image h1 {
+    position: absolute;
+    top: 1.5rem;
+    left: 40%;
+    font-size: 2.5em;
+
+}
+
+.body_container_image img {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.body_container_image_flexbox {
+    height: auto;
+    margin: 6vh 15vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.body_container_image_flexbox1 {
+    flex: 50%;
+    display: flex;
+    margin-bottom: 4vh;
+}
+
+.body_container_image_flexbox1 img {
+    flex: 50%;
+    width: 35vw;
+    margin-right: 2vw;
+    border-radius: 6px;
+
+}
+
+.body_container_text {
+    flex: 50%;
+}
+
+.container_text {
+    font-size: 4em;
+}
+
+.body_container_image_flexbox2 {
+    flex: 50%;
+    display: flex;
+
+}
+
+.body_container_image_flexbox2 img {
+    flex: 50%;
+    width: 35vw;
+    border-radius: 6px;
+
+
+}
+
+.body_container_image1 {
+    margin-right: 2vw;
+
+    box-shadow: 1px 3px 2px rgb(214, 214, 214);
+
+}
+
+/* Responsive design for tablet */
+@media screen and (max-width:850px) {
+    .body_container {
+        margin-top: 3vh;
+    }
+
+    .body_container_image h1 {
+        top: .5rem;
+        font-size: 2.1em;
+
+
+
+    }
+
+    .body_container_image img {
+        height: auto;
+
+    }
+
+    .body_container_image_flexbox {
+        margin: 5vh 9vw;
+
+    }
+
+    .body_container_image_flexbox1 {
+        margin-bottom: 3vh;
+        flex-direction: column;
+    }
+
+    .body_container_image_flexbox1 img {
+        width: 82vw;
+        margin-right: 0;
+        margin-bottom: 3vh;
+
+
+    }
+
+    .body_container_text {
+        flex: 50%;
+    }
+
+    .container_text {
+        font-size: 3.5em;
+    }
+
+    .body_container_image_flexbox2 {
+
+        flex-direction: column;
+
+
+    }
+
+    .body_container_image_flexbox2 img {
+        width: 82vw;
+        margin-bottom: 3vh;
+
+
+
+    }
+
+    .body_container_image1 {
+        margin-right: 0;
+
+
+    }
+
+
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width:400px) {
+    .body_container {
+        margin-top: 2vh;
+    }
+
+    .body_container_image h1 {
+        top: .5rem;
+        font-size: 1em;
+
+
+
+    }
+
+    .body_container_image img {
+        height: auto;
+
+    }
+
+    .body_container_image_flexbox {
+        margin: 5vh 9vw;
+
+    }
+
+    .body_container_image_flexbox1 {
+        margin-bottom: 3vh;
+        flex-direction: column;
+    }
+
+    .body_container_image_flexbox1 img {
+        width: 82vw;
+        margin-right: 0;
+        margin-bottom: 3vh;
+
+
+    }
+
+    .body_container_text {
+        flex: 50%;
+    }
+
+    .container_text {
+        font-size: 3em;
+    }
+
+    .body_container_image_flexbox2 {
+
+        flex-direction: column;
+
+
+    }
+
+    .body_container_image_flexbox2 img {
+        width: 82vw;
+        margin-bottom: 3vh;
+
+
+
+    }
+
+    .body_container_image1 {
+        margin-right: 0;
+
+
+    }
+
+
+}
